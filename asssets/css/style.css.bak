@@ -417,7 +417,6 @@ h3{
 *****************************/
 .project-area {
     position: relative;
-	overflow:hidden;
 }
 .project-area .section-title {
     margin-bottom: 50px;
