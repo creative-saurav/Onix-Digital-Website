@@ -1,0 +1,123 @@
+@media all and (min-width:992px){
+    .menu-items{
+        display: block !important;
+    }
+}
+@media all and (max-width:992px){
+    .toggle-icon{
+        display: block;
+        margin-left: 10px;
+    }
+    .menu-items{
+        display: none;
+        position: absolute;
+        width: 100%;  
+        top: 78px;
+        background-color: #fff;
+        left: 0;
+        padding: 2rem 0;
+        z-index: 999;
+    }
+    .menu-items .menu ul{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .menu-items .menu ul li {
+        padding: 2rem 0;
+        width: 90%;
+        border-bottom: 1px solid #ddd;
+    }
+    .menu-items .menu ul li:first-child{
+        padding-top: none;
+    }
+    /* Bannar Area */
+    .bannar-area:before {
+        display: none;
+    }
+    /* About Area */
+    .about-right h2 {
+        margin-top: 3rem;
+    }
+    /* Pricing Table */
+    .pricing-body{
+        margin-bottom: 3rem;
+    }
+    /* Subscribe Area */
+    .inner-subs-content{
+        padding:  120px 30px;
+    }
+    .form-area .pricing-btn {
+        background-color: #ff685f;
+        padding: 18px 40px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* Contact Area */
+    .contact-area .section-title {
+        margin-bottom: 4rem;
+    }
+    .form-contact {
+        margin-left: 0;
+    }
+    /* footer area */
+    .footer-items{
+        margin-bottom: 3rem;
+    }
+}
+@media all and (max-width:767px){
+    /* Bannar Area */
+    .bannar-area {
+        padding: 80px 0 40px 0;
+    }
+    .bannar-area .slider-items .owl-dots {
+        margin-top: 2rem !important;
+    }
+    .section-padding{
+        padding: 6rem 0;
+    }
+    /* Subscribe Area */
+    .ofset {
+        margin-left: 1.33%;
+    }
+}
+@media all and (max-width:576px){
+    .header-btn {
+        display: none;
+    }
+    /* Bannar Area */
+    .inner-btn-down {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .call-btn {
+        margin: 20px 0;
+    }
+    /* About Area */
+    .work-right {
+        -ms-grid-columns: (1fr)[1];
+            grid-template-columns: repeat(1,1fr);
+    }
+    .single-work {
+        text-align: center;
+    }
+    .single-work img {
+        margin: auto;
+    }
+    /* Contact Area */
+    .contact-area .information {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .contact-area .information span{
+        margin-bottom: 2rem;
+    }
+    .form-contact {
+        padding: 60px 80px;
+    }
+}
